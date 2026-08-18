@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingalo Négoce Trans | Transit, Import-Export, Négoce & Logistique au Bénin</title>
+    
+    <!-- Meta SEO -->
+    <meta name="description" content="Bingalo Négoce Trans, entreprise basée à Cotonou au Bénin, spécialisée dans le transit, l'import-export, le négoce de produits tropicaux, le transport et la logistique.">
+    <meta name="keywords" content="Bingalo Négoce Trans, transit Bénin, transit Cotonou, import export Bénin, logistique Bénin, transport Bénin, négoce Bénin, produits tropicaux Bénin, noix de cajou Bénin, soja Bénin, riz Bénin, arachide Bénin, karité Bénin, ananas Bénin, coton Bénin, commerce international Bénin">
+    <meta name="author" content="Bingalo Négoce Trans">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Bingalo Négoce Trans | Transit, Négoce, Transport & Logistique">
+    <meta property="og:description" content="Des solutions fiables et professionnelles pour vos opérations de transit, de négoce, de transport et de logistique entre le Bénin, l'Afrique et l'International.">
+    <meta property="og:image" content="LOGO.png">
+    <meta property="og:url" content="https://bingalonegocetrans.com">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="LOGO.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            DEFAULT: '#001C6B',
+                            dark: '#00144D',
+                            light: '#00268F',
+                            soft: '#001C6B0F'
+                        },
+                        orange: {
+                            DEFAULT: '#FF6B00',
+                            hover: '#E05D00',
+                            light: '#FFF0E6'
+                        },
+                        darkText: '#263238',
+                        lightBg: '#F5F7FA'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom styles & utilities */
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #263238;
+            background-color: #FFFFFF;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, .font-heading {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .hero-overlay {
+            background: linear-gradient(135deg, rgba(0, 28, 107, 0.88) 0%, rgba(0, 20, 77, 0.75) 100%);
+        }
+
+        .gradient-navy {
+            background: linear-gradient(135deg, #001C6B 0%, #001242 100%);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 30px -10px rgba(0, 28, 107, 0.15);
+        }
+
+        /* Timeline connector line */
+        .timeline-line {
+            background: linear-gradient(90deg, #001C6B 0%, #FF6B00 100%);
+        }
+
+        /* WhatsApp Pulse Effect */
+        @keyframes pulse-ring {
+            0% { transform: scale(0.95); opacity: 0.8; }
+            50% { transform: scale(1.15); opacity: 0.4; }
+            100% { transform: scale(0.95); opacity: 0.8; }
+        }
+        .wa-pulse {
+            animation: pulse-ring 2.5s infinite ease-in-out;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-orange selection:text-white">
+
+    <!-- ==================== HEADER / NAVIGATION ==================== -->
+    <header id="main-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 px-4 sm:px-8 bg-transparent">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            
+            <!-- Logo -->
+            <a href="#accueil" class="flex items-center gap-3 group">
+                <img src="LOGO.png" alt="Bingalo Négoce Trans Logo" class="h-12 sm:h-14 w-auto object-contain bg-white/90 p-1.5 rounded-lg shadow-md transition-transform group-hover:scale-105">
+                <div class="hidden sm:flex flex-col">
+                    <span id="brand-title" class="font-heading font-extrabold text-lg sm:text-xl tracking-tight text-white transition-colors">BINGALO NÉGOCE TRANS</span>
+                    <span id="brand-subtitle" class="text-[10px] tracking-widest uppercase font-semibold text-orange">Transit • Négoce • Logistique</span>
+                </div>
+            </a>
+
+            <!-- Desktop Menu -->
+            <nav class="hidden lg:flex items-center space-x-8 font-medium text-sm">
+                <a href="#accueil" class="nav-link text-white hover:text-orange transition-colors font-semibold">Accueil</a>
+                <a href="#a-propos" class="nav-link text-white hover:text-orange transition-colors">À propos</a>
+                <a href="#services" class="nav-link text-white hover:text-orange transition-colors">Nos services</a>
+                <a href="#produits" class="nav-link text-white hover:text-orange transition-colors">Nos produits</a>
+                <a href="#pourquoi-nous" class="nav-link text-white hover:text-orange transition-colors">Pourquoi nous ?</a>
+                <a href="#contact" class="nav-link text-white hover:text-orange transition-colors">Contact</a>
+            </nav>
+
+            <!-- CTA Button Header -->
+            <div class="hidden lg:flex items-center">
+                <a href="#contact" class="bg-orange hover:bg-orange-hover text-white px-6 py-2.5 rounded-full font-heading font-bold text-sm tracking-wide transition-all shadow-lg hover:shadow-orange/30 hover:-translate-y-0.5 active:translate-y-0">
+                    Demander un devis
+                </a>
+            </div>
+
+            <!-- Hamburger Button Mobile -->
+            <button id="menu-toggle" aria-label="Ouvrir le menu" class="lg:hidden text-white p-2 focus:outline-none">
+                <i class="fa-solid fa-bars text-2xl transition-transform" id="menu-icon"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Drawer Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-navy-dark/95 backdrop-blur-xl text-white px-6 py-8 mt-3 rounded-2xl shadow-2xl border border-white/10 flex flex-col space-y-5 text-center font-heading font-medium text-lg">
+            <a href="#accueil" class="mobile-link py-2 border-b border-white/10 hover:text-orange">Accueil</a>
+            <a href="#a-propos" class="mobile-link py-2 border-b border-white/10 hover:text-orange">À propos</a>
+            <a href="#services" class="mobile-link py-2 border-b border-white/10 hover:text-orange">Nos services</a>
+            <a href="#produits" class="mobile-link py-2 border-b border-white/10 hover:text-orange">Nos produits</a>
+            <a href="#pourquoi-nous" class="mobile-link py-2 border-b border-white/10 hover:text-orange">Pourquoi nous ?</a>
+            <a href="#contact" class="mobile-link py-2 hover:text-orange">Contact</a>
+            <a href="#contact" class="mobile-link bg-orange hover:bg-orange-hover text-white py-3 rounded-xl font-bold shadow-lg">
+                Demander un devis
+            </a>
+        </div>
+    </header>
+
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="accueil" class="relative min-h-screen flex items-center justify-center pt-24 pb-16 bg-navy overflow-hidden">
+        
+        <!-- Hero Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="N°2.jpg" alt="Navire porte-conteneurs Bingalo Négoce Trans" class="w-full h-full object-cover object-center">
+            <div class="absolute inset-0 hero-overlay"></div>
+        </div>
+
+        <!-- Subtly Decorative Grid Lines -->
+        <div class="absolute inset-0 z-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:24px_24px]"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-left">
+            <div class="max-w-3xl space-y-6">
+                
+                <!-- Badge -->
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-md text-orange font-heading font-bold text-xs sm:text-sm tracking-widest uppercase shadow-sm">
+                    <i class="fa-solid fa-ship text-xs"></i> BINGALO NÉGOCE TRANS
+                </div>
+
+                <!-- Grand Titre -->
+                <h1 class="text-3xl sm:text-5xl lg:text-6xl font-heading font-extrabold text-white leading-tight sm:leading-none tracking-tight">
+                    Votre partenaire de confiance en <span class="text-orange">transit, négoce, transport</span> et logistique
+                </h1>
+
+                <!-- Paragraphe -->
+                <p class="text-base sm:text-xl text-gray-200 font-normal leading-relaxed max-w-2xl">
+                    Facilitons ensemble vos échanges commerciaux entre le Bénin, l'Afrique et le reste du monde grâce à des solutions fiables, professionnelles et adaptées à vos besoins.
+                </p>
+
+                <!-- Boutons -->
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-4">
+                    <a href="#contact" class="bg-orange hover:bg-orange-hover text-white text-center px-8 py-4 rounded-xl font-heading font-bold text-base shadow-xl shadow-orange/20 transition-all hover:-translate-y-1">
+                        <i class="fa-solid fa-paper-plane mr-2"></i> Demander un devis
+                    </a>
+                    <a href="#services" class="bg-white/10 hover:bg-white/20 text-white border border-white/30 backdrop-blur-md text-center px-8 py-4 rounded-xl font-heading font-semibold text-base transition-all hover:-translate-y-1">
+                        <i class="fa-solid fa-compass mr-2"></i> Découvrir nos services
+                    </a>
+                </div>
+
+                <!-- Ligne Rassurante -->
+                <div class="pt-6 border-t border-white/15 flex flex-wrap items-center gap-y-2 gap-x-6 text-xs sm:text-sm text-gray-300 font-medium">
+                    <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-orange"></i> Fiabilité</span>
+                    <span class="hidden sm:inline text-white/30">•</span>
+                    <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-orange"></i> Professionnalisme</span>
+                    <span class="hidden sm:inline text-white/30">•</span>
+                    <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-orange"></i> Réactivité</span>
+                    <span class="hidden sm:inline text-white/30">•</span>
+                    <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-orange"></i> Solutions sur mesure</span>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <a href="#a-propos" aria-label="Défiler vers le bas" class="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 text-white/60 hover:text-orange transition-colors animate-bounce">
+            <i class="fa-solid fa-chevron-down text-2xl"></i>
+        </a>
+    </section>
+
+
+    <!-- ==================== INTRODUCTION SECTION ==================== -->
+    <section id="a-propos" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Texte -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-block px-3 py-1 bg-navy/5 text-navy font-heading font-bold text-xs uppercase tracking-wider rounded-md">
+                        Qui sommes-nous
+                    </div>
+                    <h2 class="text-3xl sm:text-4xl font-heading font-extrabold text-navy leading-snug">
+                        Bingalo Négoce Trans
+                    </h2>
+                    <h3 class="text-lg sm:text-xl font-heading font-semibold text-orange">
+                        Votre partenaire stratégique pour vos opérations commerciales et logistiques
+                    </h3>
+                    <div class="space-y-4 text-darkText/80 text-base leading-relaxed">
+                        <p>
+                            <strong class="text-navy">Bingalo Négoce Trans</strong> est une entreprise basée à Cotonou, au Bénin, spécialisée dans le transit, l'import-export, le négoce de produits tropicaux, le transport et la logistique.
+                        </p>
+                        <p>
+                            Notre ambition est de faciliter les échanges commerciaux en proposant à nos clients des solutions fiables, professionnelles et adaptées à leurs besoins stratégiques et opérationnels.
+                        </p>
+                    </div>
+
+                    <!-- Puces de confiance -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+                        <div class="flex items-start gap-3 p-4 bg-lightBg rounded-xl border border-gray-100">
+                            <div class="w-10 h-10 rounded-lg bg-navy/10 flex items-center justify-center text-navy font-bold text-lg shrink-0">
+                                <i class="fa-solid fa-anchor"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-heading font-bold text-navy text-sm">Ancrage portuaire stratégique</h4>
+                                <p class="text-xs text-gray-600 mt-0.5">Basé à Cotonou, hub névralgique de l'Afrique de l'Ouest.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3 p-4 bg-lightBg rounded-xl border border-gray-100">
+                            <div class="w-10 h-10 rounded-lg bg-orange/10 flex items-center justify-center text-orange font-bold text-lg shrink-0">
+                                <i class="fa-solid fa-truck-fast"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-heading font-bold text-navy text-sm">Chaîne d'approvisionnement</h4>
+                                <p class="text-xs text-gray-600 mt-0.5">Maitrise complète des flux maritimes et terrestres.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visuel Graphique Moderne -->
+                <div class="lg:col-span-5">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        
+                        <!-- Main Card Illustration -->
+                        <div class="gradient-navy text-white p-8 rounded-3xl shadow-2xl relative z-10 space-y-6 overflow-hidden">
+                            <div class="absolute -right-10 -bottom-10 w-48 h-48 bg-orange/20 rounded-full blur-2xl"></div>
+                            
+                            <div class="flex items-center justify-between border-b border-white/10 pb-4">
+                                <span class="text-xs uppercase tracking-widest text-orange font-bold">Réseau Mondial</span>
+                                <i class="fa-solid fa-globe text-2xl text-white/60"></i>
+                            </div>
+
+                            <div class="space-y-4">
+                                <div class="flex items-center gap-4 bg-white/10 p-3.5 rounded-xl border border-white/10">
+                                    <div class="w-10 h-10 rounded-full bg-orange flex items-center justify-center text-white shrink-0">
+                                        <i class="fa-solid fa-box-archive"></i>
+                                    </div>
+                                    <div>
+                                        <div class="font-heading font-bold text-sm">Gestion de Fret & Conteneurs</div>
+                                        <div class="text-xs text-gray-300">Suivi rigoureux et sécurisé</div>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-center gap-4 bg-white/10 p-3.5 rounded-xl border border-white/10">
+                                    <div class="w-10 h-10 rounded-full bg-navy-light flex items-center justify-center text-white shrink-0 border border-white/20">
+                                        <i class="fa-solid fa-file-contract"></i>
+                                    </div>
+                                    <div>
+                                        <div class="font-heading font-bold text-sm">Formalités Douanières</div>
+                                        <div class="text-xs text-gray-300">Conformité et dédouanement express</div>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-center gap-4 bg-white/10 p-3.5 rounded-xl border border-white/10">
+                                    <div class="w-10 h-10 rounded-full bg-orange/80 flex items-center justify-center text-white shrink-0">
+                                        <i class="fa-solid fa-seedling"></i>
+                                    </div>
+                                    <div>
+                                        <div class="font-heading font-bold text-sm">Négoce Agricole Export</div>
+                                        <div class="text-xs text-gray-300">Produits tropicaux certifiés</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pt-2 text-center text-xs text-gray-300 italic">
+                                « Cotonou, porte d'entrée et de sortie des échanges internationaux. »
+                            </div>
+                        </div>
+
+                        <!-- Secondary Offset Card -->
+                        <div class="absolute -bottom-6 -left-6 w-full h-full bg-orange/15 rounded-3xl -z-0 transform -rotate-2"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================== NOS DOMAINES D'EXPERTISE ==================== -->
+    <section id="services" class="py-20 bg-lightBg border-y border-gray-200/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Section Header -->
+            <div class="text-center max-w-3xl mx-auto space-y-3 mb-16">
+                <div class="inline-block px-3 py-1 bg-orange/10 text-orange font-heading font-bold text-xs uppercase tracking-wider rounded-md">
+                    Savoir-Faire & Services
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-heading font-extrabold text-navy">
+                    Nos domaines d'expertise
+                </h2>
+                <p class="text-base sm:text-lg text-darkText/70">
+                    Des solutions intégrées pour accompagner vos activités de bout en bout
+                </p>
+            </div>
+
+            <!-- Grille 5 Cartes -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Carte 01 - Transit -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm card-hover flex flex-col justify-between relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-navy transition-all group-hover:w-3"></div>
+                    <div>
+                        <div class="flex items-center justify-between mb-6">
+                            <div class="w-14 h-14 rounded-2xl bg-navy/10 text-navy flex items-center justify-center text-2xl group-hover:bg-navy group-hover:text-white transition-colors">
+                                <i class="fa-solid fa-file-invoice"></i>
+                            </div>
+                            <span class="font-heading font-black text-3xl text-gray-200 group-hover:text-orange transition-colors">01</span>
+                        </div>
+                        <h3 class="text-xl font-heading font-bold text-navy mb-3">Transit</h3>
+                        <p class="text-darkText/70 text-sm leading-relaxed mb-6">
+                            Accompagnement dans vos opérations de transit et de formalités liées au commerce international. Prise en charge administrative et réglementaire rigoureuse.
+                        </p>
+                    </div>
+                    <a href="#contact" class="inline-flex items-center gap-2 text-xs font-heading font-bold text-orange hover:text-navy transition-colors">
+                        En savoir plus <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Carte 02 - Import & Export -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm card-hover flex flex-col justify-between relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-orange transition-all group-hover:w-3"></div>
+                    <div>
+                        <div class="flex items-center justify-between mb-6">
+                            <div class="w-14 h-14 rounded-2xl bg-orange/10 text-orange flex items-center justify-center text-2xl group-hover:bg-orange group-hover:text-white transition-colors">
+                                <i class="fa-solid fa-plane-departure"></i>
+                            </div>
+                            <span class="font-heading font-black text-3xl text-gray-200 group-hover:text-navy transition-colors">02</span>
+                        </div>
+                        <h3 class="text-xl font-heading font-bold text-navy mb-3">Import & Export</h3>
+                        <p class="text-darkText/70 text-sm leading-relaxed mb-6">
+                            Solutions adaptées à vos opérations d'importation et d'exportation. Sécurisation des expéditions et optimisation des flux de marchandises.
+                        </p>
+                    </div>
+                    <a href="#contact" class="inline-flex items-center gap-2 text-xs font-heading font-bold text-orange hover:text-navy transition-colors">
+                        En savoir plus <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Carte 03 - Transport -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm card-hover flex flex-col justify-between relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-navy transition-all group-hover:w-3"></div>
+                    <div>
+                        <div class="flex items-center justify-between mb-6">
+                            <div class="w-14 h-14 rounded-2xl bg-navy/10 text-navy flex items-center justify-center text-2xl group-hover:bg-navy group-hover:text-white transition-colors">
+                                <i class="fa-solid fa-truck-front"></i>
+                            </div>
+                            <span class="font-heading font-black text-3xl text-gray-200 group-hover:text-orange transition-colors">03</span>
+                        </div>
+                        <h3 class="text-xl font-heading font-bold text-navy mb-3">Transport</h3>
+                        <p class="text-darkText/70 text-sm leading-relaxed mb-6">
+                            Organisation et accompagnement de vos opérations de transport de marchandises. Acheminement routier et intermodal efficace et sécurisé.
+                        </p>
+                    </div>
+                    <a href="#contact" class="inline-flex items-center gap-2 text-xs font-heading font-bold text-orange hover:text-navy transition-colors">
+                        En savoir plus <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Carte 04 - Logistique -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm card-hover flex flex-col justify-between relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-orange transition-all group-hover:w-3"></div>
+                    <div>
+                        <div class="flex items-center justify-between mb-6">
+                            <div class="w-14 h-14 rounded-2xl bg-orange/10 text-orange flex items-center justify-center text-2xl group-hover:bg-orange group-hover:text-white transition-colors">
+                                <i class="fa-solid fa-warehouse"></i>
+                            </div>
+                            <span class="font-heading font-black text-3xl text-gray-200 group-hover:text-navy transition-colors">04</span>
+                        </div>
+                        <h3 class="text-xl font-heading font-bold text-navy mb-3">Logistique</h3>
+                        <p class="text-darkText/70 text-sm leading-relaxed mb-6">
+                            Solutions logistiques adaptées à vos besoins opérationnels et commerciaux. Stockage, manutention et gestion optimale des cargaisons.
+                        </p>
+                    </div>
+                    <a href="#contact" class="inline-flex items-center gap-2 text-xs font-heading font-bold text-orange hover:text-navy transition-colors">
+                        En savoir plus <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Carte 05 - Négoce -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm card-hover flex flex-col justify-between relative overflow-hidden group md:col-span-2 lg:col-span-1">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-navy transition-all group-hover:w-3"></div>
+                    <div>
+                        <div class="flex items-center justify-between mb-6">
+                            <div class="w-14 h-14 rounded-2xl bg-navy/10 text-navy flex items-center justify-center text-2xl group-hover:bg-navy group-hover:text-white transition-colors">
+                                <i class="fa-solid fa-wheat-awn"></i>
+                            </div>
+                            <span class="font-heading font-black text-3xl text-gray-200 group-hover:text-orange transition-colors">05</span>
+                        </div>
+                        <h3 class="text-xl font-heading font-bold text-navy mb-3">Négoce</h3>
+                        <p class="text-darkText/70 text-sm leading-relaxed mb-6">
+                            Commerce et négoce de produits tropicaux et marchandises diverses. Approvisionnement stratégique et sourcing de qualité supérieure.
+                        </p>
+                    </div>
+                    <a href="#contact" class="inline-flex items-center gap-2 text-xs font-heading font-bold text-orange hover:text-navy transition-colors">
+                        En savoir plus <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================== NOS FILIÈRES / PRODUITS ==================== -->
+    <section id="produits" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Section Header -->
+            <div class="text-center max-w-3xl mx-auto space-y-3 mb-16">
+                <div class="inline-block px-3 py-1 bg-navy/5 text-navy font-heading font-bold text-xs uppercase tracking-wider rounded-md">
+                    Secteur Agricole & Commerce
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-heading font-extrabold text-navy">
+                    Nos filières et produits
+                </h2>
+                <p class="text-base sm:text-lg text-darkText/70">
+                    Au cœur des filières agricoles et du commerce de produits tropicaux
+                </p>
+            </div>
+
+            <!-- Grille Responsive des Produit Cards (8 Produits) -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- 01. Noix de Cajou -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-md card-hover group flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 overflow-hidden relative">
+                            <img src="raw-cashew-nut-226.jpg" alt="Noix de cajou du Bénin Bingalo Négoce Trans" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute top-3 right-3 bg-navy/90 backdrop-blur-md text-white text-[10px] font-heading font-bold px-3 py-1 rounded-full uppercase">
+                                Produit Phare
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading font-bold text-lg text-navy mb-2">Noix de cajou</h3>
+                            <p class="text-xs text-darkText/70 leading-relaxed">
+                                Produit agricole majeur au cœur des échanges commerciaux régionaux et internationaux.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-0">
+                        <a href="#contact" class="text-xs font-heading font-bold text-orange hover:text-navy flex items-center gap-1">
+                            Demander une quotation <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 02. Soja -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-md card-hover group flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 overflow-hidden relative">
+                            <img src="35_picture-default.jpg" alt="Filière Soja Bénin Bingalo Négoce Trans" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading font-bold text-lg text-navy mb-2">Soja</h3>
+                            <p class="text-xs text-darkText/70 leading-relaxed">
+                                Approvisionnement et commerce du soja et produits associés pour le marché local et export.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-0">
+                        <a href="#contact" class="text-xs font-heading font-bold text-orange hover:text-navy flex items-center gap-1">
+                            Demander une quotation <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 03. Riz -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-md card-hover group flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 overflow-hidden relative bg-navy/5 flex items-center justify-center">
+                            <img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80" alt="Filière Riz Bingalo Négoce Trans" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading font-bold text-lg text-navy mb-2">Riz</h3>
+                            <p class="text-xs text-darkText/70 leading-relaxed">
+                                Solutions commerciales et approvisionnement stratégique en riz de qualité garantie.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-0">
+                        <a href="#contact" class="text-xs font-heading font-bold text-orange hover:text-navy flex items-center gap-1">
+                            Demander une quotation <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 04. Arachide -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-md card-hover group flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 overflow-hidden relative">
+                            <img src="arachides-graines.jpg" alt="Filière Arachide Bénin Bingalo Négoce Trans" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading font-bold text-lg text-navy mb-2">Arachide</h3>
+                            <p class="text-xs text-darkText/70 leading-relaxed">
+                                Commerce et valorisation continue de la filière arachide pour la transformation et le négoce.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-0">
+                        <a href="#contact" class="text-xs font-heading font-bold text-orange hover:text-navy flex items-center gap-1">
+                            Demander une quotation <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 05. Karité -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-md card-hover group flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 overflow-hidden relative">
+                            <img src="noix_Karite-1024x576-1.jpg" alt="Noix de Karité Bénin Bingalo Négoce Trans" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading font-bold text-lg text-navy mb-2">Karité</h3>
+                            <p class="text-xs text-darkText/70 leading-relaxed">
+                                Produits et amandes brutes issus de la filière karité pour l'industrie cosmétique et alimentaire.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-0">
+                        <a href="#contact" class="text-xs font-heading font-bold text-orange hover:text-navy flex items-center gap-1">
+                            Demander une quotation <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 06. Ananas -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-md card-hover group flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 overflow-hidden relative">
+                            <img src="_128240332_ananasindex.jpg" alt="Ananas du Bénin Bingalo Négoce Trans" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading font-bold text-lg text-navy mb-2">Ananas</h3>
+                            <p class="text-xs text-darkText/70 leading-relaxed">
+                                Produits agricoles et tropicaux frais ou transformés issus de la filière ananas béninoise.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-0">
+                        <a href="#contact" class="text-xs font-heading font-bold text-orange hover:text-navy flex items-center gap-1">
+                            Demander une quotation <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 07. Coton -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-md card-hover group flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 overflow-hidden relative">
+                            <img src="Fleur-de-coton.jpg" alt="Fleur de Coton Bénin Bingalo Négoce Trans" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading font-bold text-lg text-navy mb-2">Coton</h3>
+                            <p class="text-xs text-darkText/70 leading-relaxed">
+                                Participation active aux échanges internationaux et à la logistique liée à la filière coton.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-0">
+                        <a href="#contact" class="text-xs font-heading font-bold text-orange hover:text-navy flex items-center gap-1">
+                            Demander une quotation <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 08. Produits tropicaux & divers -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-md card-hover group flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 overflow-hidden relative">
+                            <img src="Produits tropicaux.jpg" alt="Produits tropicaux Bingalo Négoce Trans" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading font-bold text-lg text-navy mb-2">Produits tropicaux & divers</h3>
+                            <p class="text-xs text-darkText/70 leading-relaxed">
+                                Commerce général et fourniture de marchandises diverses selon les exigences spécifiques des clients.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-0">
+                        <a href="#contact" class="text-xs font-heading font-bold text-orange hover:text-navy flex items-center gap-1">
+                            Demander une quotation <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================== COMMERCE INTERNATIONAL ==================== -->
+    <section class="py-20 gradient-navy text-white relative overflow-hidden">
+        
+        <!-- Background graphic design -->
+        <div class="absolute -right-24 -top-24 w-96 h-96 bg-orange/10 rounded-full blur-3xl"></div>
+        <div class="absolute -left-24 -bottom-24 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto space-y-6">
+                
+                <span class="inline-block px-4 py-1.5 rounded-full bg-white/10 text-orange font-heading font-bold text-xs uppercase tracking-widest border border-white/10">
+                    Sourcing & Logistique Globale
+                </span>
+
+                <h2 class="text-3xl sm:text-5xl font-heading font-extrabold leading-tight">
+                    Connecter les opportunités.<br><span class="text-orange">Faciliter les échanges.</span>
+                </h2>
+
+                <p class="text-base sm:text-lg text-gray-200 leading-relaxed">
+                    Depuis Cotonou, <strong class="text-white">Bingalo Négoce Trans</strong> accompagne ses partenaires dans leurs opérations commerciales et logistiques, avec une vision orientée vers la fiabilité, la performance et la satisfaction client.
+                </p>
+
+                <!-- Représentation Graphique Réseau : Bénin -> Afrique -> International -->
+                <div class="py-10">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+                        
+                        <!-- Noeud 1: Bénin -->
+                        <div class="p-6 rounded-2xl glass-card text-center space-y-3 relative group hover:border-orange/50 transition-colors">
+                            <div class="w-14 h-14 mx-auto rounded-full bg-orange flex items-center justify-center text-white text-2xl shadow-lg">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <h3 class="font-heading font-bold text-xl">Bénin</h3>
+                            <p class="text-xs text-gray-300">Ancrage local, port de Cotonou & sourcing direct des produits tropicaux.</p>
+                        </div>
+
+                        <!-- Connector Arrow Desktop -->
+                        <div class="hidden md:flex flex-col items-center justify-center text-orange space-y-1">
+                            <i class="fa-solid fa-arrows-left-right text-3xl animate-pulse"></i>
+                            <span class="text-[10px] font-heading uppercase tracking-widest text-gray-300">Hub Régional</span>
+                        </div>
+
+                        <!-- Noeud 2: Afrique -->
+                        <div class="p-6 rounded-2xl glass-card text-center space-y-3 relative group hover:border-orange/50 transition-colors">
+                            <div class="w-14 h-14 mx-auto rounded-full bg-navy-light border border-white/20 flex items-center justify-center text-white text-2xl shadow-lg">
+                                <i class="fa-solid fa-earth-africa"></i>
+                            </div>
+                            <h3 class="font-heading font-bold text-xl">Afrique</h3>
+                            <p class="text-xs text-gray-300">Intégration sous-régionale & transit transfrontalier vers l'hinterland.</p>
+                        </div>
+
+                        <!-- Connector Arrow Desktop -->
+                        <div class="hidden md:flex flex-col items-center justify-center text-orange space-y-1 md:col-start-2 md:row-start-2 lg:col-auto lg:row-auto hidden">
+                            <i class="fa-solid fa-arrow-right text-3xl"></i>
+                        </div>
+
+                        <!-- Noeud 3: International -->
+                        <div class="p-6 rounded-2xl glass-card text-center space-y-3 relative group hover:border-orange/50 transition-colors md:col-span-3 lg:col-span-1">
+                            <div class="w-14 h-14 mx-auto rounded-full bg-orange flex items-center justify-center text-white text-2xl shadow-lg">
+                                <i class="fa-solid fa-globe"></i>
+                            </div>
+                            <h3 class="font-heading font-bold text-xl">International</h3>
+                            <p class="text-xs text-gray-300">Exportation vers l'Europe, l'Asie et les Amériques aux normes mondiales.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+                    <a href="#contact" class="inline-block bg-orange hover:bg-orange-hover text-white font-heading font-bold text-base px-8 py-4 rounded-xl shadow-xl transition-transform hover:-translate-y-1">
+                        <i class="fa-solid fa-comments mr-2"></i> Parlons de votre projet
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================== POURQUOI NOUS CHOISIR ? ==================== -->
+    <section id="pourquoi-nous" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto space-y-3 mb-16">
+                <div class="inline-block px-3 py-1 bg-navy/5 text-navy font-heading font-bold text-xs uppercase tracking-wider rounded-md">
+                    Nos Engagements
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-heading font-extrabold text-navy">
+                    Pourquoi choisir Bingalo Négoce Trans ?
+                </h2>
+                <p class="text-base text-darkText/70">
+                    Des atouts solides pour garantirent le succès et la sécurité de toutes vos opérations
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- 1. Fiabilité -->
+                <div class="p-6 rounded-2xl bg-lightBg border border-gray-100 flex items-start gap-5 hover:bg-white hover:shadow-lg transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-navy text-white flex items-center justify-center text-xl shrink-0 shadow-md">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-heading font-bold text-navy text-lg mb-1">Fiabilité</h3>
+                        <p class="text-xs text-darkText/70 leading-relaxed">
+                            Des solutions rigoureusement pensées pour sécuriser vos marchandises et vos opérations commerciales.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 2. Professionnalisme -->
+                <div class="p-6 rounded-2xl bg-lightBg border border-gray-100 flex items-start gap-5 hover:bg-white hover:shadow-lg transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-orange text-white flex items-center justify-center text-xl shrink-0 shadow-md">
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-heading font-bold text-navy text-lg mb-1">Professionnalisme</h3>
+                        <p class="text-xs text-darkText/70 leading-relaxed">
+                            Une approche méthodique, structurée et résolument orientée vers l'obtention de résultats concrets.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 3. Réactivité -->
+                <div class="p-6 rounded-2xl bg-lightBg border border-gray-100 flex items-start gap-5 hover:bg-white hover:shadow-lg transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-navy text-white flex items-center justify-center text-xl shrink-0 shadow-md">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-heading font-bold text-navy text-lg mb-1">Réactivité</h3>
+                        <p class="text-xs text-darkText/70 leading-relaxed">
+                            Une équipe toujours attentive à vos demandes urgentes et scrupuleusement respectueuse de vos délais.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 4. Solutions sur mesure -->
+                <div class="p-6 rounded-2xl bg-lightBg border border-gray-100 flex items-start gap-5 hover:bg-white hover:shadow-lg transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-orange text-white flex items-center justify-center text-xl shrink-0 shadow-md">
+                        <i class="fa-solid fa-sliders"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-heading font-bold text-navy text-lg mb-1">Solutions sur mesure</h3>
+                        <p class="text-xs text-darkText/70 leading-relaxed">
+                            Des services ajustés avec précision aux spécificités techniques de chaque cargaison et client.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 5. Expertise locale -->
+                <div class="p-6 rounded-2xl bg-lightBg border border-gray-100 flex items-start gap-5 hover:bg-white hover:shadow-lg transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-navy text-white flex items-center justify-center text-xl shrink-0 shadow-md">
+                        <i class="fa-solid fa-map-pin"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-heading font-bold text-navy text-lg mb-1">Expertise locale</h3>
+                        <p class="text-xs text-darkText/70 leading-relaxed">
+                            Une implantation stratégique à Cotonou, au cœur des réseaux administratifs et portuaires du Bénin.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 6. Vision internationale -->
+                <div class="p-6 rounded-2xl bg-lightBg border border-gray-100 flex items-start gap-5 hover:bg-white hover:shadow-lg transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-orange text-white flex items-center justify-center text-xl shrink-0 shadow-md">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-heading font-bold text-navy text-lg mb-1">Vision internationale</h3>
+                        <p class="text-xs text-darkText/70 leading-relaxed">
+                            Une perspective résolument tournée vers le commerce mondial et l'intégration des réseaux d'échanges.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================== STATISTIQUES ==================== -->
+    <section class="py-16 gradient-navy text-white border-y border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center" id="stats-container">
+                
+                <div class="space-y-2 p-4">
+                    <div class="font-heading font-extrabold text-4xl sm:text-5xl text-orange counter" data-target="7">7+</div>
+                    <div class="text-xs sm:text-sm text-gray-300 font-medium uppercase tracking-wider">Filières agricoles</div>
+                </div>
+
+                <div class="space-y-2 p-4">
+                    <div class="font-heading font-extrabold text-4xl sm:text-5xl text-white counter" data-target="5">5</div>
+                    <div class="text-xs sm:text-sm text-gray-300 font-medium uppercase tracking-wider">Domaines d'expertise</div>
+                </div>
+
+                <div class="space-y-2 p-4">
+                    <div class="font-heading font-extrabold text-4xl sm:text-5xl text-orange">1</div>
+                    <div class="text-xs sm:text-sm text-gray-300 font-medium uppercase tracking-wider">Partenaire stratégique</div>
+                </div>
+
+                <div class="space-y-2 p-4">
+                    <div class="font-heading font-extrabold text-4xl sm:text-5xl text-white">100%</div>
+                    <div class="text-xs sm:text-sm text-gray-300 font-medium uppercase tracking-wider">Engagement client</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================== NOTRE APPROCHE ==================== -->
+    <section class="py-20 bg-lightBg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto space-y-3 mb-16">
+                <div class="inline-block px-3 py-1 bg-navy/5 text-navy font-heading font-bold text-xs uppercase tracking-wider rounded-md">
+                    Processus de Travail
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-heading font-extrabold text-navy">
+                    Une approche simple, professionnelle et efficace
+                </h2>
+                <p class="text-base text-darkText/70">
+                    Quatre étapes méthodiques pour conduire vos projets vers une réussite totale
+                </p>
+            </div>
+
+            <!-- Process Grid / Timeline -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 relative">
+                
+                <!-- Step 01 -->
+                <div class="bg-white p-6 rounded-2xl border border-gray-200/80 shadow-sm relative z-10 space-y-4">
+                    <div class="w-12 h-12 rounded-full bg-navy text-white font-heading font-bold text-base flex items-center justify-center">
+                        01
+                    </div>
+                    <h3 class="font-heading font-bold text-lg text-navy">Écouter</h3>
+                    <p class="text-xs text-darkText/70 leading-relaxed">
+                        Comprendre précisément vos besoins, vos impératifs de volume, de budget et de calendrier.
+                    </p>
+                </div>
+
+                <!-- Step 02 -->
+                <div class="bg-white p-6 rounded-2xl border border-gray-200/80 shadow-sm relative z-10 space-y-4">
+                    <div class="w-12 h-12 rounded-full bg-orange text-white font-heading font-bold text-base flex items-center justify-center">
+                        02
+                    </div>
+                    <h3 class="font-heading font-bold text-navy text-lg">Analyser</h3>
+                    <p class="text-xs text-darkText/70 leading-relaxed">
+                        Étudier minutieusement votre opération, ses exigences réglementaires et les contraintes logistiques.
+                    </p>
+                </div>
+
+                <!-- Step 03 -->
+                <div class="bg-white p-6 rounded-2xl border border-gray-200/80 shadow-sm relative z-10 space-y-4">
+                    <div class="w-12 h-12 rounded-full bg-navy text-white font-heading font-bold text-base flex items-center justify-center">
+                        03
+                    </div>
+                    <h3 class="font-heading font-bold text-navy text-lg">Proposer</h3>
+                    <p class="text-xs text-darkText/70 leading-relaxed">
+                        Construire et soumettre une solution sur mesure, claire, transparente et parfaitement optimisée.
+                    </p>
+                </div>
+
+                <!-- Step 04 -->
+                <div class="bg-white p-6 rounded-2xl border border-gray-200/80 shadow-sm relative z-10 space-y-4">
+                    <div class="w-12 h-12 rounded-full bg-orange text-white font-heading font-bold text-base flex items-center justify-center">
+                        04
+                    </div>
+                    <h3 class="font-heading font-bold text-navy text-lg">Accompagner</h3>
+                    <p class="text-xs text-darkText/70 leading-relaxed">
+                        Vous accompagner pas à pas avec un suivi rigoureux jusqu'à la concrétisation complète de l'opération.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ==================== GRANDE SECTION CTA ==================== -->
+    <section class="py-20 gradient-navy text-white relative overflow-hidden">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 space-y-8">
+            
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold leading-tight">
+                Vous avez un projet d'import-export, de transit ou de négoce ?
+            </h2>
+
+            <p class="text-base sm:text-xl text-gray-200 max-w-2xl mx-auto">
+                Échangeons sur vos besoins et construisons ensemble une solution adaptée à votre activité.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+                <a href="#contact" class="w-full sm:w-auto bg-orange hover:bg-orange-hover text-white px-8 py-4 rounded-xl font-heading font-bold text-base shadow-xl transition-transform hover:-translate-y-1">
+                    <i class="fa-solid fa-file-signature mr-2"></i> Demander un devis
+                </a>
+                <a href="#contact" class="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white border border-white/20 px-8 py-4 rounded-xl font-heading font-semibold text-base transition-transform hover:-translate-y-1">
+                    <i class="fa-solid fa-phone mr-2"></i> Nous contacter
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ==================== SECTION CONTACT ==================== -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto space-y-3 mb-16">
+                <div class="inline-block px-3 py-1 bg-navy/5 text-navy font-heading font-bold text-xs uppercase tracking-wider rounded-md">
+                    Prise de Contact
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-heading font-extrabold text-navy">
+                    Parlons de votre projet
+                </h2>
+                <p class="text-base text-darkText/70">
+                    Notre équipe est à votre entière disposition pour répondre à toutes vos demandes
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                
+                <!-- COLONNE GAUCHE — INFORMATIONS -->
+                <div class="lg:col-span-5 space-y-8">
+                    
+                    <div class="bg-lightBg p-8 rounded-3xl border border-gray-100 space-y-6">
+                        <h3 class="font-heading font-bold text-xl text-navy border-b border-gray-200 pb-4">
+                            Coordonnées Officielles
+                        </h3>
+
+                        <!-- Adresse -->
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-navy/10 text-navy flex items-center justify-center text-lg shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs uppercase font-heading font-bold text-gray-400">Adresse</div>
+                                <div class="text-sm font-semibold text-darkText mt-0.5">Cotonou, Gbèdjromèdé, Bénin</div>
+                            </div>
+                        </div>
+
+                        <!-- Téléphone -->
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-orange/10 text-orange flex items-center justify-center text-lg shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs uppercase font-heading font-bold text-gray-400">Téléphone</div>
+                                <a href="tel:+2290160314151" class="text-sm font-semibold text-navy hover:text-orange transition-colors mt-0.5 block">
+                                    +229 01 60 31 41 51
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-navy/10 text-navy flex items-center justify-center text-lg shrink-0">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs uppercase font-heading font-bold text-gray-400">Email</div>
+                                <a href="mailto:bingalo229@gmail.com" class="text-sm font-semibold text-navy hover:text-orange transition-colors mt-0.5 block">
+                                    bingalo229@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Mentions Légal Registres -->
+                        <div class="pt-4 border-t border-gray-200 grid grid-cols-2 gap-4 text-xs">
+                            <div class="p-3 bg-white rounded-xl border border-gray-200">
+                                <div class="text-gray-400 font-bold uppercase text-[10px]">RCCM</div>
+                                <div class="font-mono font-bold text-navy mt-0.5">RB/COT/23 B 35173</div>
+                            </div>
+                            <div class="p-3 bg-white rounded-xl border border-gray-200">
+                                <div class="text-gray-400 font-bold uppercase text-[10px]">IFU</div>
+                                <div class="font-mono font-bold text-navy mt-0.5">3202340924108</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Encart horaire / réactivité -->
+                    <div class="p-6 rounded-2xl bg-navy text-white flex items-center gap-4">
+                        <i class="fa-solid fa-clock-rotate-left text-3xl text-orange"></i>
+                        <div class="text-xs">
+                            <strong class="block text-sm font-heading font-bold">Réponse sous 24h ouvrées</strong>
+                            Nos conseillers analysent immédiatement votre demande pour vous proposer un devis personnalisé.
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- COLONNE DROITE — FORMULAIRE DE CONTACT (FORMSPREE: xrpzlyqv) -->
+                <div class="lg:col-span-7">
+                    <div class="bg-white p-8 sm:p-10 rounded-3xl border border-gray-200 shadow-xl">
+                        
+                        <form id="contact-form" action="https://formspree.io/f/xrpzlyqv" method="POST" class="space-y-5">
+                            
+                            <!-- Nom Complet -->
+                            <div>
+                                <label for="fullname" class="block text-xs font-heading font-bold text-navy uppercase mb-1">
+                                    Nom complet <span class="text-orange">*</span>
+                                </label>
+                                <input type="text" id="fullname" name="fullname" required placeholder="Ex: Jean Dupont" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-orange focus:border-orange outline-none text-sm transition-all">
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                <!-- Email -->
+                                <div>
+                                    <label for="email" class="block text-xs font-heading font-bold text-navy uppercase mb-1">
+                                        Email <span class="text-orange">*</span>
+                                    </label>
+                                    <input type="email" id="email" name="email" required placeholder="contact@exemple.com" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-orange focus:border-orange outline-none text-sm transition-all">
+                                </div>
+
+                                <!-- Téléphone -->
+                                <div>
+                                    <label for="phone" class="block text-xs font-heading font-bold text-navy uppercase mb-1">
+                                        Téléphone <span class="text-gray-400 font-normal">(facultatif)</span>
+                                    </label>
+                                    <input type="tel" id="phone" name="phone" placeholder="+229 XX XX XX XX" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-orange focus:border-orange outline-none text-sm transition-all">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                <!-- Objet -->
+                                <div>
+                                    <label for="subject" class="block text-xs font-heading font-bold text-navy uppercase mb-1">
+                                        Objet <span class="text-orange">*</span>
+                                    </label>
+                                    <input type="text" id="subject" name="subject" required placeholder="Sujet de votre demande" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-orange focus:border-orange outline-none text-sm transition-all">
+                                </div>
+
+                                <!-- Type de demande -->
+                                <div>
+                                    <label for="request_type" class="block text-xs font-heading font-bold text-navy uppercase mb-1">
+                                        Type de demande <span class="text-orange">*</span>
+                                    </label>
+                                    <select id="request_type" name="request_type" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-orange focus:border-orange outline-none text-sm transition-all bg-white">
+                                        <option value="" disabled selected>Sélectionner...</option>
+                                        <option value="Transit">Transit</option>
+                                        <option value="Import-export">Import-export</option>
+                                        <option value="Transport">Transport</option>
+                                        <option value="Logistique">Logistique</option>
+                                        <option value="Négoce">Négoce</option>
+                                        <option value="Produits tropicaux">Produits tropicaux</option>
+                                        <option value="Commerce général">Commerce général</option>
+                                        <option value="Autre">Autre</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Message -->
+                            <div>
+                                <label for="message" class="block text-xs font-heading font-bold text-navy uppercase mb-1">
+                                    Message <span class="text-orange">*</span>
+                                </label>
+                                <textarea id="message" name="message" rows="4" required placeholder="Précisez votre demande, vos volumes ou vos contraintes..." class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-orange focus:border-orange outline-none text-sm transition-all"></textarea>
+                            </div>
+
+                            <!-- Case Consentement -->
+                            <div class="flex items-start gap-3">
+                                <input type="checkbox" id="consent" name="consent" required class="mt-1 rounded text-orange focus:ring-orange">
+                                <label for="consent" class="text-xs text-darkText/70">
+                                    J'accepte que mes informations soient utilisées afin de répondre à ma demande conformément à la politique de confidentialité.
+                                </label>
+                            </div>
+
+                            <!-- Bouton d'envoi -->
+                            <button type="submit" id="submit-btn" class="w-full bg-orange hover:bg-orange-hover text-white font-heading font-bold text-base py-4 rounded-xl shadow-lg transition-all hover:shadow-orange/30">
+                                <i class="fa-solid fa-paper-plane mr-2"></i> Envoyer ma demande
+                            </button>
+
+                            <!-- Statuts d'envoi -->
+                            <div id="form-success" class="hidden p-4 bg-emerald-50 border border-emerald-200 text-emerald-800 text-sm rounded-xl flex items-center gap-3">
+                                <i class="fa-solid fa-circle-check text-xl text-emerald-600"></i>
+                                <span>Merci pour votre message. Votre demande a bien été envoyée. Notre équipe vous contactera dans les meilleurs délais.</span>
+                            </div>
+
+                            <div id="form-error" class="hidden p-4 bg-rose-50 border border-rose-200 text-rose-800 text-sm rounded-xl flex items-center gap-3">
+                                <i class="fa-solid fa-circle-xmark text-xl text-rose-600"></i>
+                                <span>Une erreur est survenue lors de l'envoi. Veuillez réessayer ou nous contacter directement par téléphone (+229 01 60 31 41 51) ou email.</span>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================== CARTE / LOCALISATION ==================== -->
+    <section class="py-12 bg-lightBg border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white p-4 sm:p-6 rounded-3xl border border-gray-200 shadow-md">
+                <div class="flex flex-col sm:flex-row items-center justify-between gap-4 mb-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-navy text-white flex items-center justify-center font-bold">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-heading font-bold text-navy text-base">Localisation du Siège Social</h3>
+                            <p class="text-xs text-gray-500">Cotonou, Gbèdjromèdé, Bénin</p>
+                        </div>
+                    </div>
+                    <a href="https://maps.google.com/?q=Gbèdjromèdé+Cotonou+Bénin" target="_blank" rel="noopener noreferrer" class="text-xs font-heading font-bold text-orange hover:underline flex items-center gap-1">
+                        Ouvrir dans Google Maps <i class="fa-solid fa-up-right-from-square text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- OpenStreetMap Embed Container -->
+                <div class="w-full h-80 rounded-2xl overflow-hidden border border-gray-200">
+                    <iframe 
+                        title="Carte Bingalo Négoce Trans Cotonou"
+                        width="100%" 
+                        height="100%" 
+                        frameborder="0" 
+                        scrolling="no" 
+                        marginheight="0" 
+                        marginwidth="0" 
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=2.4000%2C6.3600%2C2.4400%2C6.3900&amp;layer=mapnik&amp;marker=6.3750%2C2.4200"
+                        class="w-full h-full border-0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-navy-dark text-white pt-16 pb-8 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 pb-12 border-b border-white/10">
+                
+                <!-- Col 1: Brand & Bio -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <img src="LOGO.png" alt="Bingalo Négoce Trans Logo" class="h-12 w-auto bg-white p-1 rounded-lg">
+                        <span class="font-heading font-extrabold text-lg text-white">BINGALO NÉGOCE TRANS</span>
+                    </div>
+                    <p class="text-xs text-gray-300 leading-relaxed">
+                        Bingalo Négoce Trans — Votre partenaire de confiance en transit, négoce, transport et logistique internationale au Bénin.
+                    </p>
+                    <p class="text-[11px] text-orange italic">
+                        « Faciliter vos échanges, accompagner votre croissance. »
+                    </p>
+                </div>
+
+                <!-- Col 2: Navigation -->
+                <div class="space-y-3">
+                    <h4 class="font-heading font-bold text-sm text-orange uppercase tracking-wider">Navigation</h4>
+                    <ul class="space-y-2 text-xs text-gray-300">
+                        <li><a href="#accueil" class="hover:text-orange transition-colors">Accueil</a></li>
+                        <li><a href="#a-propos" class="hover:text-orange transition-colors">À propos</a></li>
+                        <li><a href="#services" class="hover:text-orange transition-colors">Nos Services</a></li>
+                        <li><a href="#produits" class="hover:text-orange transition-colors">Nos Produits</a></li>
+                        <li><a href="#pourquoi-nous" class="hover:text-orange transition-colors">Pourquoi nous ?</a></li>
+                        <li><a href="#contact" class="hover:text-orange transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Services -->
+                <div class="space-y-3">
+                    <h4 class="font-heading font-bold text-sm text-orange uppercase tracking-wider">Services</h4>
+                    <ul class="space-y-2 text-xs text-gray-300">
+                        <li><a href="#services" class="hover:text-orange transition-colors">Transit & Dédouanement</a></li>
+                        <li><a href="#services" class="hover:text-orange transition-colors">Import & Export</a></li>
+                        <li><a href="#services" class="hover:text-orange transition-colors">Organisation du Transport</a></li>
+                        <li><a href="#services" class="hover:text-orange transition-colors">Logistique & Entreposage</a></li>
+                        <li><a href="#services" class="hover:text-orange transition-colors">Négoce de Produits Tropicaux</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Contact & Legal -->
+                <div class="space-y-3">
+                    <h4 class="font-heading font-bold text-sm text-orange uppercase tracking-wider">Contact & Registre</h4>
+                    <ul class="space-y-2 text-xs text-gray-300">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-location-dot text-orange"></i> Cotonou, Gbèdjromèdé, Bénin</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-phone text-orange"></i> +229 01 60 31 41 51</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-envelope text-orange"></i> bingalo229@gmail.com</li>
+                        <li class="pt-2 font-mono text-[11px] text-gray-400">RCCM: RB/COT/23 B 35173</li>
+                        <li class="font-mono text-[11px] text-gray-400">IFU: 3202340924108</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom Copyright -->
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400">
+                <div>
+                    © 2026 Bingalo Négoce Trans — Tous droits réservés.
+                </div>
+                <div class="flex items-center space-x-6">
+                    <a href="#contact" class="hover:text-orange transition-colors">Mentions légales</a>
+                    <a href="#contact" class="hover:text-orange transition-colors">Politique de confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ==================== BOUTON WHATSAPP FLOTTANT ==================== -->
+    <a 
+        href="https://wa.me/2290160314151?text=Bonjour%20Bingalo%20N%C3%A9goce%20Trans%2C%20je%20souhaite%20obtenir%20des%20informations%20concernant%20vos%20services." 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        aria-label="Contacter sur WhatsApp"
+        class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl transition-transform hover:scale-110 group">
+        
+        <span class="absolute inset-0 rounded-full bg-emerald-500 wa-pulse -z-10"></span>
+        <i class="fa-brands fa-whatsapp"></i>
+        
+        <!-- Tooltip -->
+        <span class="absolute right-16 top-1/2 -translate-y-1/2 bg-navy text-white text-xs font-heading font-medium px-3 py-1.5 rounded-lg shadow-xl opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none hidden sm:block">
+            Discutez avec nous
+        </span>
+    </a>
+
+
+    <!-- ==================== BACK TO TOP BUTTON ==================== -->
+    <button id="back-to-top" aria-label="Retour en haut" class="fixed bottom-24 right-6 z-40 bg-navy/80 hover:bg-orange text-white w-10 h-10 rounded-full flex items-center justify-center text-sm shadow-lg opacity-0 pointer-events-none transition-all duration-300">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            // 1. Header scroll effect & Back to top
+            const header = document.getElementById('main-header');
+            const brandTitle = document.getElementById('brand-title');
+            const brandSubtitle = document.getElementById('brand-subtitle');
+            const navLinks = document.querySelectorAll('.nav-link');
+            const backToTopBtn = document.getElementById('back-to-top');
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    header.classList.remove('bg-transparent', 'py-4');
+                    header.classList.add('bg-white/95', 'backdrop-blur-md', 'shadow-md', 'py-2.5');
+                    brandTitle.classList.remove('text-white');
+                    brandTitle.classList.add('text-navy');
+                    navLinks.forEach(link => {
+                        link.classList.remove('text-white');
+                        link.classList.add('text-navy');
+                    });
+                    backToTopBtn.classList.remove('opacity-0', 'pointer-events-none');
+                } else {
+                    header.classList.add('bg-transparent', 'py-4');
+                    header.classList.remove('bg-white/95', 'backdrop-blur-md', 'shadow-md', 'py-2.5');
+                    brandTitle.classList.add('text-white');
+                    brandTitle.classList.remove('text-navy');
+                    navLinks.forEach(link => {
+                        link.classList.add('text-white');
+                        link.classList.remove('text-navy');
+                    });
+                    backToTopBtn.classList.add('opacity-0', 'pointer-events-none');
+                }
+            });
+
+            // Back to top scroll click
+            backToTopBtn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+            // 2. Mobile Menu Toggle
+            const menuToggle = document.getElementById('menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileLinks = document.querySelectorAll('.mobile-link');
+
+            menuToggle.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+
+            // 3. Formspree AJAX Submission
+            const contactForm = document.getElementById('contact-form');
+            const submitBtn = document.getElementById('submit-btn');
+            const formSuccess = document.getElementById('form-success');
+            const formError = document.getElementById('form-error');
+
+            if (contactForm) {
+                contactForm.addEventListener('submit', async (e) => {
+                    e.preventDefault();
+                    
+                    submitBtn.disabled = true;
+                    submitBtn.innerHTML = '<i class="fa-solid fa-spinner animate-spin mr-2"></i> Envoi en cours...';
+                    formSuccess.classList.add('hidden');
+                    formError.classList.add('hidden');
+
+                    const formData = new FormData(contactForm);
+
+                    try {
+                        const response = await fetch(contactForm.action, {
+                            method: 'POST',
+                            body: formData,
+                            headers: {
+                                'Accept': 'application/json'
+                            }
+                        });
+
+                        if (response.ok) {
+                            formSuccess.classList.remove('hidden');
+                            contactForm.reset();
+                        } else {
+                            formError.classList.remove('hidden');
+                        }
+                    } catch (err) {
+                        formError.classList.remove('hidden');
+                    } finally {
+                        submitBtn.disabled = false;
+                        submitBtn.innerHTML = '<i class="fa-solid fa-paper-plane mr-2"></i> Envoyer ma demande';
+                    }
+                });
+            }
+
+        });
+    </script>
+</body>
+</html>
